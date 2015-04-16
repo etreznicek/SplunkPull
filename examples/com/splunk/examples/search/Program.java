@@ -43,7 +43,9 @@ public class Program {
             String recentUserEmailSourceUri = "";
 
             System.out.println("Beginning Source URI Search and Print...");
+            System.out.println();
             System.out.println("Users Found:");
+            System.out.println();
 
             while ((event = resultsReader.getNextEvent()) != null) {
                 for (String key: event.keySet()) {
@@ -70,8 +72,12 @@ public class Program {
 
             String recentUserEmailDiskSpace = "";
 
+            System.out.println();
+            System.out.println();
             System.out.println("Beginning Disk Space Search and Print...");
+            System.out.println();
             System.out.println("Users Found:");
+            System.out.println();
 
             while ((event = resultsReader.getNextEvent()) != null) {
                 for (String key: event.keySet()) {

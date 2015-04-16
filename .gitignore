@@ -1,0 +1,35 @@
+# Java
+*.class
+
+# Mac OS X
+*.DS_Store*
+
+# Generated directories
+build
+dist
+out
+
+# Test & Coverage
+TEST-com.splunk.*.xml
+
+# IntelliJ
+.idea/workspace.xml
+
+# Unknown
+*.swp
+*.properties
+.settings
+bin
+build.log
+
+# Visual Studio
+Debug
+Release
+launchers/shim/Release
+launchers/shim/shim/Release
+launchers/shim/x64
+launchers/shim/ipch/*
+launchers/shim/shim.opensdf
+
+
+

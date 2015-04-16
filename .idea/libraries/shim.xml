@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="shim">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/launchers/shim/jars/shim.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
